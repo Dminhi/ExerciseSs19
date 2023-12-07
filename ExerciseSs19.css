@@ -1,0 +1,147 @@
+.form {
+    width: 500px;
+    padding: 20px, 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 2px #dadada solid;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px;
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+    margin-top: 16px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px;
+    gap: 32px;
+}
+
+.main_top {}
+
+.label {
+    font-family: Arial, sans-serif;
+    /* Kiểu font chữ */
+    font-size: 16px;
+    /* Kích thước chữ */
+    font-weight: bold;
+    /* Độ đậm của chữ */
+    color: #333;
+    /* Màu chữ */
+}
+
+.input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.birth {
+    margin-top: 22px;
+}
+
+.dateinput {
+    padding: 8px;
+    /* Khoảng cách nội dung với viền của input */
+    border: 1px solid #ccc;
+    /* Viền input */
+    border-radius: 4px;
+    /* Bo tròn các góc của input */
+    font-size: 16px;
+    /* Kích thước chữ trong input */
+    outline: none;
+    /* Loại bỏ viền khi focus vào input */
+}
+
+.fix {
+    /* Kích thước của radio button */
+    width: 20px;
+    height: 20px;
+    /* Đặt kiểu viền và viền bên trong */
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    /* Bo tròn radio button */
+    outline: none;
+    /* Loại bỏ viền khi focus */
+    /* Tạo hiệu ứng khi radio được chọn */
+    transition: all 0.3s ease;
+}
+
+.select {
+    width: 100%;
+    padding: 8px;
+    /* Khoảng cách nội dung với viền */
+    font-size: 16px;
+    /* Kích thước chữ */
+    border: 1px solid #ccc;
+    /* Viền */
+    border-radius: 4px;
+    /* Bo tròn các góc */
+    outline: none;
+    /* Loại bỏ viền khi focus */
+}
+
+.address1 {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.main_bottom {}
+
+.main1 {}
+
+.btn {
+    padding: 10px 20px;
+    /* Khoảng cách nội dung với viền của button */
+    font-size: 16px;
+    /* Kích thước chữ trong button */
+    border: none;
+    /* Loại bỏ viền của button */
+    border-radius: 4px;
+    /* Bo tròn các góc của button */
+    background-color: #007bff;
+    /* Màu nền của button */
+    color: #fff;
+    /* Màu chữ */
+    cursor: pointer;
+    /* Thay đổi con trỏ khi di chuột vào button */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Đổi màu nền khi di chuột vào */
+}
+
+.address {
+    margin-left: 16px;
+    margin-bottom: 32px;
+}
+
+.button {
+    border-top: 2px #dadada solid;
+    display: flex;
+    justify-content: end;
+    margin: 16px;
+    gap: 32px;
+    padding-top: 16px;
+}
